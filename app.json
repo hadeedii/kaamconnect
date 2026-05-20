@@ -1,0 +1,52 @@
+{
+  "expo": {
+    "name": "kaamconnect",
+    "slug": "kaamconnect",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/kaamconnect.png",
+    "scheme": "kaamconnect",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.kaamconnect.app",
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyBqKGB6wAXPWtWIaDLjoJUeGOoWIoGhLKk"
+        }
+      },
+      "adaptiveIcon": {
+        "backgroundColor": "#ffffff",
+        "foregroundImage": "./assets/images/kaamconnect.png"
+      },
+      "edgeToEdgeEnabled": true,
+      "predictiveBackGestureEnabled": false
+    },
+    "web": {
+      "output": "static",
+      "favicon": "./assets/images/kaamconnect.png"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/images/kaamconnect.png",
+          "imageWidth": 200,
+          "resizeMode": "contain",
+          "backgroundColor": "#ffffff",
+          "dark": {
+            "backgroundColor": "#ffffff"
+          }
+        }
+      ]
+    ],
+    "experiments": {
+      "typedRoutes": true,
+      "reactCompiler": true
+    }
+  }
+}
